@@ -1,0 +1,17 @@
+{
+  "name": "Social",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile-home": "node-sass ./Styles/Sass/home.scss ./Styles/Css/home.css -w",
+    "compile-one": "node-sass ./styles/Sass/one.scss ./Styles/Css/one.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "node-sass": "^6.0.0"
+  }
+}
